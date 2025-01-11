@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platerly.Server", "Platerly.Server\Platerly.Server.csproj", "{0CCD9AAB-22BA-4839-A328-16A63EC2426D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "platerly.client", "platerly.client\platerly.client.esproj", "{0BC8B20A-676B-4D5A-94C2-707D2614A0DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CCD9AAB-22BA-4839-A328-16A63EC2426D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCD9AAB-22BA-4839-A328-16A63EC2426D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCD9AAB-22BA-4839-A328-16A63EC2426D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCD9AAB-22BA-4839-A328-16A63EC2426D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC8B20A-676B-4D5A-94C2-707D2614A0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC8B20A-676B-4D5A-94C2-707D2614A0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC8B20A-676B-4D5A-94C2-707D2614A0DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0BC8B20A-676B-4D5A-94C2-707D2614A0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC8B20A-676B-4D5A-94C2-707D2614A0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC8B20A-676B-4D5A-94C2-707D2614A0DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
