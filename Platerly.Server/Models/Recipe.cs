@@ -47,5 +47,6 @@ namespace Platerly.Server.Models
 
         public ICollection<Interaction> Interactions { get; set; } = new List<Interaction>(); // Comments, likes, and more
         public ICollection<Like> Likes { get; set; } = new List<Like>();
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
 }
